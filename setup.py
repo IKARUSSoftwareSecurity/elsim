@@ -24,7 +24,7 @@ setup(
     description='Elsim is a library designed to detect similar content in files, especially in the context of Android',
     packages=find_packages(),
     install_requires=[
-        "androguard @ https://github.com/androguard/androguard/tarball/master",  # require version 3.4.0 or latest master
+        "androguard @ https://github.com/themoep/androguard/tarball/master",  # require version 3.4.0 or latest master
         "python-hashes @ https://github.com/sean-public/python-hashes/tarball/master",  # require version >0.2, which is not yet on pypi
         "click",
         "murmurhash3",
